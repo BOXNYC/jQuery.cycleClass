@@ -15,7 +15,7 @@ CDN : https://cdn.rawgit.com/BOXNYC/jQuery.cycleClass/master/jQuery.cycleClass.j
 - $.CYCLE_CLASS_REWIND : If the option direction is forward, classes cycle forward, and when last class is reached, the first class is selected. If direction is reverse, classes cycle in reverse, and when first is reached, the last class is selected.
 
 ## Examples
-
+```javascript
 $('li').click(function(){
   $(this).cycleClass('small medium large');
 });
@@ -43,3 +43,4 @@ $('li').click(function(){
     direction: $.CYCLE_CLASS_REVERSE
   });
 });
+```
